@@ -29,11 +29,34 @@ export default function Home() {
 
         <Link
           href="mailto:alexandfinn@karugamo.agency"
-          className="flex items-center gap-2 bg-olive  text-white px-6 py-3 rounded-lg text-lg transition-colors duration-300 shadow-md"
+          className="flex items-center gap-2 bg-olive text-white px-6 py-3 rounded-lg text-lg transition-colors duration-300 shadow-md"
         >
           <Mail size={20} />
           Get in Touch
         </Link>
+
+        {/* Projects Section */}
+        <div className="w-full mt-16">
+          <h2 className="text-4xl font-bold text-stone-900 mb-8 text-left">Projects</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <Link href="https://drive.alexandfinn.com" className="relative aspect-[16/10] rounded-xl overflow-hidden shadow-lg transition-transform hover:scale-105">
+              <Image
+                src="/kartfight.png"
+                alt="Kart Fight - A multiplayer kart racing game"
+                fill
+                className="object-cover"
+              />
+            </Link>
+            <Link href="https://wundertest.ai" className="relative aspect-[16/10] rounded-xl overflow-hidden shadow-lg transition-transform hover:scale-105">
+              <Image
+                src="/wundertest.png"
+                alt="Wundertest.ai - AI-powered testing platform"
+                fill
+                className="object-cover"
+              />
+            </Link>
+          </div>
+        </div>
       </div>
     </main>
   );
