@@ -37,9 +37,40 @@ export default function Home() {
 
         {/* Projects Section */}
         <div className="w-full mt-16">
-          <h2 className="text-4xl font-bold text-stone-900 mb-8 text-left">Projects</h2>
+          <h2 className="text-4xl font-bold text-stone-900 mb-8 text-left">
+            Projects
+          </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <Link href="https://drive.alexandfinn.com" className="relative aspect-[16/10] rounded-xl overflow-hidden shadow-lg transition-transform hover:scale-105">
+            <Link
+              href="https://threejsjam.com"
+              target="_blank"
+              className="relative aspect-[16/10] rounded-xl overflow-hidden shadow-lg transition-transform hover:scale-105"
+            >
+              <Image
+                src="/threejs.png"
+                alt="Three.js Game Jam"
+                fill
+                className="object-cover"
+              />
+            </Link>
+
+            <Link
+              href="https://wundertest.ai"
+              target="_blank"
+              className="relative aspect-[16/10] rounded-xl overflow-hidden shadow-lg transition-transform hover:scale-105"
+            >
+              <Image
+                src="/wundertest.png"
+                alt="Wundertest.ai - AI-powered testing platform"
+                fill
+                className="object-cover"
+              />
+            </Link>
+            <Link
+              href="https://drive.alexandfinn.com"
+              target="_blank"
+              className="relative aspect-[16/10] rounded-xl overflow-hidden shadow-lg transition-transform hover:scale-105"
+            >
               <Image
                 src="/kartfight.png"
                 alt="Kart Fight - A multiplayer kart racing game"
@@ -47,10 +78,14 @@ export default function Home() {
                 className="object-cover"
               />
             </Link>
-            <Link href="https://wundertest.ai" className="relative aspect-[16/10] rounded-xl overflow-hidden shadow-lg transition-transform hover:scale-105">
+            <Link
+              href="https://apps.apple.com/us/app/jots-ai-journal-diary/id6450964816"
+              target="_blank"
+              className="relative aspect-[16/10] rounded-xl overflow-hidden shadow-lg transition-transform hover:scale-105"
+            >
               <Image
-                src="/wundertest.png"
-                alt="Wundertest.ai - AI-powered testing platform"
+                src="/jots.png"
+                alt="Jots - AI Voice Journal"
                 fill
                 className="object-cover"
               />
