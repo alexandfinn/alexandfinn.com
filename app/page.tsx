@@ -52,81 +52,187 @@ export default function Home() {
           <h2 className="text-4xl font-bold text-stone-900 mb-8 text-left">
             Projects
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="flex flex-col gap-5">
             <Link
               href="https://sip.alexandfinn.com"
               target="_blank"
-              className="relative aspect-[16/10] rounded-xl overflow-hidden shadow-lg transition-transform hover:scale-105"
+              className="group"
             >
-              <Image
-                src="/sip.png"
-                alt="Sip - Your Water Buddy"
-                fill
-                className="object-cover"
-              />
+              <div className="flex bg-white rounded-lg shadow-md transition-all group overflow-hidden min-h-[9rem] transform-gpu group-hover:scale-[1.03] group-hover:shadow-lg duration-200">
+                <div className="relative w-56 h-36 rounded-l-lg overflow-hidden flex-shrink-0">
+                  <Image
+                    src="/sip.png"
+                    alt="Sip - Your Water Buddy"
+                    fill
+                    className="object-cover group-hover:scale-105 transition-transform"
+                  />
+                </div>
+                <div className="flex flex-col justify-center flex-1 p-6 pl-8 gap-2">
+                  <div className="flex items-start w-full">
+                    <div className="flex flex-col flex-1">
+                      <h3 className="text-2xl font-semibold text-stone-900 text-left">Sip</h3>
+                      <p className="text-stone-600 text-lg text-left">Your personal water tracking companion. Stay hydrated and build healthy habits with Sip.</p>
+                    </div>
+                    <span className="px-3 py-1 text-xs font-medium bg-olive/10 text-olive rounded-full ml-4">iOS App</span>
+                  </div>
+                </div>
+              </div>
             </Link>
 
             <Link
               href="https://wundertest.ai"
               target="_blank"
-              className="relative aspect-[16/10] rounded-xl overflow-hidden shadow-lg transition-transform hover:scale-105"
+              className="group"
             >
-              <Image
-                src="/wundertest.png"
-                alt="Wundertest.ai - AI-powered testing platform"
-                fill
-                className="object-cover"
-              />
+              <div className="flex bg-white rounded-lg shadow-md transition-all group overflow-hidden min-h-[9rem] transform-gpu group-hover:scale-[1.03] group-hover:shadow-lg duration-200">
+                <div className="relative w-56 h-36 rounded-l-lg overflow-hidden flex-shrink-0">
+                  <Image
+                    src="/wundertest.png"
+                    alt="Wundertest.ai - AI-powered testing platform"
+                    fill
+                    className="object-cover group-hover:scale-105 transition-transform"
+                  />
+                </div>
+                <div className="flex flex-col justify-center flex-1 p-6 pl-8 gap-2">
+                  <div className="flex items-start w-full">
+                    <div className="flex flex-col flex-1">
+                      <h3 className="text-2xl font-semibold text-stone-900 text-left">Wundertest.ai</h3>
+                      <p className="text-stone-600 text-lg text-left">AI-powered testing platform that helps people write End-to-End tests in human language.</p>
+                    </div>
+                    <span className="px-3 py-1 text-xs font-medium bg-olive/10 text-olive rounded-full ml-4">AI Platform</span>
+                  </div>
+                </div>
+              </div>
             </Link>
 
             <Link
               href="https://threejsjam.com"
               target="_blank"
-              className="relative aspect-[16/10] rounded-xl overflow-hidden shadow-lg transition-transform hover:scale-105"
+              className="group"
             >
-              <Image
-                src="/threejs.png"
-                alt="Three.js Game Jam"
-                fill
-                className="object-cover"
-              />
+              <div className="flex bg-white rounded-lg shadow-md transition-all group overflow-hidden min-h-[9rem] transform-gpu group-hover:scale-[1.03] group-hover:shadow-lg duration-200">
+                <div className="relative w-56 h-36 rounded-l-lg overflow-hidden flex-shrink-0">
+                  <Image
+                    src="/threejs.png"
+                    alt="Three.js Game Jam"
+                    fill
+                    className="object-cover group-hover:scale-105 transition-transform"
+                  />
+                </div>
+                <div className="flex flex-col justify-center flex-1 p-6 pl-8 gap-2">
+                  <div className="flex items-start w-full">
+                    <div className="flex flex-col flex-1">
+                      <h3 className="text-2xl font-semibold text-stone-900 text-left">Three.js Game Jam</h3>
+                      <p className="text-stone-600 text-lg text-left">A yearly game jam for the Three.js community.</p>
+                    </div>
+                    <span className="px-3 py-1 text-xs font-medium bg-olive/10 text-olive rounded-full ml-4">Event</span>
+                  </div>
+                </div>
+              </div>
             </Link>
 
             <Link
               href="https://drive.alexandfinn.com"
               target="_blank"
-              className="relative aspect-[16/10] rounded-xl overflow-hidden shadow-lg transition-transform hover:scale-105"
+              className="group"
             >
-              <Image
-                src="/kartfight.png"
-                alt="Kart Fight - A multiplayer kart racing game"
-                fill
-                className="object-cover"
-              />
+              <div className="flex bg-white rounded-lg shadow-md transition-all group overflow-hidden min-h-[9rem] transform-gpu group-hover:scale-[1.03] group-hover:shadow-lg duration-200">
+                <div className="relative w-56 h-36 rounded-l-lg overflow-hidden flex-shrink-0">
+                  <Image
+                    src="/kartfight.png"
+                    alt="Kart Fight - A multiplayer kart racing game"
+                    fill
+                    className="object-cover group-hover:scale-105 transition-transform"
+                  />
+                </div>
+                <div className="flex flex-col justify-center flex-1 p-6 pl-8 gap-2">
+                  <div className="flex items-start w-full">
+                    <div className="flex flex-col flex-1">
+                      <h3 className="text-2xl font-semibold text-stone-900 text-left">Kart Fight</h3>
+                      <p className="text-stone-600 text-lg text-left">A multiplayer kart game built with Three.js</p>
+                    </div>
+                    <span className="px-3 py-1 text-xs font-medium bg-olive/10 text-olive rounded-full ml-4">Web Game</span>
+                  </div>
+                </div>
+              </div>
             </Link>
+
             <Link
               href="https://apps.apple.com/us/app/jots-ai-journal-diary/id6450964816"
               target="_blank"
-              className="relative aspect-[16/10] rounded-xl overflow-hidden shadow-lg transition-transform hover:scale-105"
+              className="group"
             >
-              <Image
-                src="/jots.png"
-                alt="Jots - AI Voice Journal"
-                fill
-                className="object-cover"
-              />
+              <div className="flex bg-white rounded-lg shadow-md transition-all group overflow-hidden min-h-[9rem] transform-gpu group-hover:scale-[1.03] group-hover:shadow-lg duration-200">
+                <div className="relative w-56 h-36 rounded-l-lg overflow-hidden flex-shrink-0">
+                  <Image
+                    src="/jots.png"
+                    alt="Jots - AI Voice Journal"
+                    fill
+                    className="object-cover group-hover:scale-105 transition-transform"
+                  />
+                </div>
+                <div className="flex flex-col justify-center flex-1 p-6 pl-8 gap-2">
+                  <div className="flex items-start w-full">
+                    <div className="flex flex-col flex-1">
+                      <h3 className="text-2xl font-semibold text-stone-900 text-left">Jots</h3>
+                      <p className="text-stone-600 text-lg text-left">AI-powered voice journaling app that helps you capture and reflect on your thoughts.</p>
+                    </div>
+                    <span className="px-3 py-1 text-xs font-medium bg-olive/10 text-olive rounded-full ml-4">iOS App</span>
+                  </div>
+                </div>
+              </div>
             </Link>
+
             <Link
               href="https://tagesspiegel.de"
               target="_blank"
-              className="relative aspect-[16/10] rounded-xl overflow-hidden shadow-lg transition-transform hover:scale-105"
+              className="group"
             >
-              <Image
-                src="/tagesspiegel.png"
-                alt="Tagesspiegel - German Newspaper"
-                fill
-                className="object-cover"
-              />
+              <div className="flex bg-white rounded-lg shadow-md transition-all group overflow-hidden min-h-[9rem] transform-gpu group-hover:scale-[1.03] group-hover:shadow-lg duration-200">
+                <div className="relative w-56 h-36 rounded-l-lg overflow-hidden flex-shrink-0">
+                  <Image
+                    src="/tagesspiegel.png"
+                    alt="Tagesspiegel - German Newspaper"
+                    fill
+                    className="object-cover group-hover:scale-105 transition-transform"
+                  />
+                </div>
+                <div className="flex flex-col justify-center flex-1 p-6 pl-8 gap-2">
+                  <div className="flex items-start w-full">
+                    <div className="flex flex-col flex-1">
+                      <h3 className="text-2xl font-semibold text-stone-900 text-left">Tagesspiegel</h3>
+                      <p className="text-stone-600 text-lg text-left">Relaunched their digital platform including their ePaper reader and distribution system.</p>
+                    </div>
+                    <span className="px-3 py-1 text-xs font-medium bg-olive/10 text-olive rounded-full ml-4">Client Project</span>
+                  </div>
+                </div>
+              </div>
+            </Link>
+
+            <Link
+              href="#"
+              target="_blank"
+              className="group"
+            >
+              <div className="flex bg-white rounded-lg shadow-md transition-all group overflow-hidden min-h-[9rem] transform-gpu group-hover:scale-[1.03] group-hover:shadow-lg duration-200">
+                <div className="relative w-56 h-36 rounded-l-lg overflow-hidden flex-shrink-0">
+                  <Image
+                    src="/plusdental.png"
+                    alt="PlusDental - Client Project"
+                    fill
+                    className="object-cover group-hover:scale-105 transition-transform"
+                  />
+                </div>
+                <div className="flex flex-col justify-center flex-1 p-6 pl-8 gap-2">
+                  <div className="flex items-start w-full">
+                    <div className="flex flex-col flex-1">
+                      <h3 className="text-2xl font-semibold text-stone-900 text-left">PlusDental</h3>
+                      <p className="text-stone-600 text-lg text-left">Relaunched their aligner app for iOS/Android with React Native and improved their rating from 3.3 to 4.5.</p>
+                    </div>
+                    <span className="px-3 py-1 text-xs font-medium bg-olive/10 text-olive rounded-full ml-4">Client Project</span>
+                  </div>
+                </div>
+              </div>
             </Link>
           </div>
         </div>
