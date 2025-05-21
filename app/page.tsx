@@ -217,8 +217,8 @@ export default function Home() {
               <div className="flex bg-white rounded-lg shadow-md transition-all group overflow-hidden min-h-[9rem] transform-gpu group-hover:scale-[1.03] group-hover:shadow-lg duration-200">
                 <div className="relative w-56 h-36 rounded-l-lg overflow-hidden flex-shrink-0">
                   <Image
-                    src="/plusdental.png"
-                    alt="PlusDental - Client Project"
+                    src="/ruumi.png"
+                    alt="Ruumi - Client Project"
                     fill
                     className="object-cover group-hover:scale-105 transition-transform"
                   />
@@ -226,8 +226,8 @@ export default function Home() {
                 <div className="flex flex-col justify-center flex-1 p-6 pl-8 gap-2">
                   <div className="flex items-start w-full">
                     <div className="flex flex-col flex-1">
-                      <h3 className="text-2xl font-semibold text-stone-900 text-left">PlusDental</h3>
-                      <p className="text-stone-600 text-lg text-left">Relaunched their aligner app for iOS/Android with React Native and improved their rating from 3.3 to 4.5.</p>
+                      <h3 className="text-2xl font-semibold text-stone-900 text-left">Ruumi</h3>
+                      <p className="text-stone-600 text-lg text-left">Built an intuitive frontend interface for their AI-powered farm management platform.</p>
                     </div>
                     <span className="px-3 py-1 text-xs font-medium bg-olive/10 text-olive rounded-full ml-4">Client Project</span>
                   </div>
