@@ -1,9 +1,0 @@
-[build]
-  command = "true"
-  publish = "."
-
-[build.environment]
-  NETLIFY_NEXT_PLUGIN_SKIP = "true"
-
-[build.processing]
-  skip_processing = true
