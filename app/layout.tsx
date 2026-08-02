@@ -1,14 +1,11 @@
 import type React from "react";
 import "./globals.css";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-
-const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Alex and Finn | Making Software Since 2014",
-  description: "Software development duo creating digital solutions since 2014",
-  generator: "v0.dev",
+  title: "Alex & Finn — Independent Software Studio",
+  description:
+    "Alex and Finn design and develop thoughtful digital products together.",
 };
 
 export default function RootLayout({
@@ -18,9 +15,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body>{children}</body>
     </html>
   );
 }
-
-import "./globals.css";
