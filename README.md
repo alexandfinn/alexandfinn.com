@@ -5,8 +5,8 @@ The Alex & Finn website is a single static page in `index.html`.
 ## Deployment
 
 This repository is automatically deployed to Netlify whenever changes are
-pushed to `main`. Netlify copies `index.html` into its `out` publish directory;
-there is no framework build step.
+pushed to `main`. Netlify publishes the repository root directly; there is no
+build step.
 
 ## Local preview
 

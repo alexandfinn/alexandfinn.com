@@ -1,6 +1,5 @@
 [build]
-  command = "rm -rf out && mkdir -p out && cp index.html out/index.html"
-  publish = "out"
+  publish = "."
 
 [build.processing]
   skip_processing = true
