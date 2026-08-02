@@ -1,5 +1,7 @@
 # alexandfinn.com
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/772d44a7-0fb4-47f9-9849-1261dbf856cf/deploy-status)](https://app.netlify.com/projects/alexandfinn/deploys)
+
 The Alex & Finn website is a single static page in `index.html`.
 
 ## Deployment
