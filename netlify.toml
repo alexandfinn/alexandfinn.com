@@ -1,6 +1,6 @@
 [build]
-  command = "echo 'Static site - no build required'"
-  publish = "."
+  command = "rm -rf out && mkdir -p out && cp index.html out/index.html"
+  publish = "out"
 
 [build.processing]
   skip_processing = true
