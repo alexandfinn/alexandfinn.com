@@ -1,100 +1,27 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#f9faf6" />
-    <meta name="description" content="Alex and Finn are an independent design and development studio. We design and build digital products, from the first idea to launch." />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#e8ebfb">
+    <meta name="description" content="Alex and Finn design and build digital products together. Independent since 2014.">
     <title>Alex &amp; Finn — Design and development</title>
-    <link rel="icon" href="assets/mark.png" />
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="breakout.css" />
-    <script src="breakout.js" defer></script>
+    <link rel="icon" href="assets/ampersand.png">
+    <link rel="preload" href="assets/bricolage-latin.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="styles.css">
+    <script src="lettering.js" defer></script>
   </head>
   <body>
-    <div class="page">
-      <header class="masthead">
-        <div class="identity">
-          <span class="mark" aria-hidden="true">a/f</span>
-          <span class="meta">Independent studio</span>
-        </div>
-        <span class="meta">Since 2014</span>
-      </header>
-      <main class="hero">
-        <div class="intro">
-          <h1 aria-label="Alex and Finn"><span class="pong-word" data-pong-target>a</span><span class="pong-word" data-pong-target>l</span><span class="pong-word" data-pong-target>e</span><span class="pong-word" data-pong-target>x</span> <em data-pong-target>&amp;</em> <span class="pong-word" data-pong-target>f</span><span class="pong-word" data-pong-target>i</span><span class="pong-word" data-pong-target>n</span><span class="pong-word" data-pong-target>n</span></h1>
-          <p><span class="pong-word" data-pong-target>We</span> <span class="pong-word" data-pong-target>design</span> <span class="pong-word" data-pong-target>and</span> <span class="pong-word" data-pong-target>build</span> <span class="pong-word" data-pong-target>digital</span> <span class="pong-word" data-pong-target>products,</span> <span class="pong-word" data-pong-target>from</span> <span class="pong-word" data-pong-target>the</span> <span class="pong-word" data-pong-target>first</span> <span class="pong-word" data-pong-target>idea</span> <span class="pong-word" data-pong-target>to</span> <span class="pong-word" data-pong-target>launch.</span></p>
-          <a class="contact-button" href="mailto:alexandfinn@karugamo.agency" data-pong-target>
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
-              <rect x="2.5" y="4.5" width="19" height="15" rx="2"/>
-              <path d="m3.5 6 8.5 6 8.5-6"/>
-            </svg>
-            Get in touch
-          </a>
-        </div>
-        <div class="art" aria-hidden="true">
-          <img src="assets/knot.webp" alt="" width="1300" height="1080" />
-        </div>
-      </main>
-      <footer class="colophon">
-        <nav class="profiles" aria-label="LinkedIn profiles">
-          <span class="meta">LinkedIn</span>
-          <a href="https://www.linkedin.com/in/alexanderassmann/">Alex Assmann</a>
-          <a href="https://www.linkedin.com/in/finnpauls/">Finn Pauls</a>
-        </nav>
-        <button
-          class="pong-toggle"
-          type="button"
-          aria-label="Play Breakout"
-          aria-controls="pong-game" title="Play Breakout"
-        >
-          <svg
-            class="lucide lucide-gamepad-2"
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            aria-hidden="true"
-          >
-            <line x1="6" x2="10" y1="11" y2="11" />
-            <line x1="8" x2="8" y1="9" y2="13" />
-            <line x1="15" x2="15.01" y1="12" y2="12" />
-            <line x1="18" x2="18.01" y1="10" y2="10" />
-            <path
-              d="M17.32 5H6.68a4 4 0 0 0-3.978 3.59c-.006.052-.01.101-.017.152C2.604 9.416 2 14.456 2 16a3 3 0 0 0 3 3c1 0 1.5-.5 2-1l1.414-1.414A2 2 0 0 1 9.828 16h4.344a2 2 0 0 1 1.414.586L17 18c.5.5 1 1 2 1a3 3 0 0 0 3-3c0-1.545-.604-6.584-.685-7.258-.007-.05-.011-.1-.017-.151A4 4 0 0 0 17.32 5z"
-            />
-          </svg>
-        </button>
-      </footer>
-    </div>
-
-    <div class="pong-layer" id="pong-game" aria-hidden="true" hidden>
-      <button class="pong-exit" type="button">Exit game</button>
-      <div class="pong-paddle"></div>
-      <div class="pong-ball"></div>
-    </div>
-
-    <div class="breakout-win" hidden>
-      <section
-        class="breakout-card"
-        role="dialog"
-        aria-modal="true"
-        aria-labelledby="breakout-title"
-      >
-        <button class="breakout-close" type="button" aria-label="Close">×</button>
-        <h2 id="breakout-title">You made it.</h2>
-        <a
-          class="breakout-email"
-          href="mailto:breakout@alexandfinn.com?subject=I%20made%20it!&amp;body=Hi%20Alex%20and%20Finn%2C%0A%0AI%20finished%20the%20breakout%20game!"
-          >let us know</a
-        >
-      </section>
-    </div>
-
+    <main class="card">
+      <h1 class="signature">
+        <a class="alex" href="https://www.linkedin.com/in/alexanderassmann/" aria-label="Alex Assmann on LinkedIn">alex</a>
+        <span class="join"><span class="fallback">&amp;</span><canvas aria-hidden="true"></canvas></span>
+        <a class="finn" href="https://www.linkedin.com/in/finnpauls/" aria-label="Finn Pauls on LinkedIn">finn</a>
+      </h1>
+      <div class="details">
+        <p>We design and build digital products.<br>Working together since 2014.</p>
+        <a class="contact" href="mailto:alexandfinn@karugamo.agency">Email us</a>
+      </div>
+    </main>
   </body>
 </html>
